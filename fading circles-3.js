@@ -27,3 +27,15 @@ vertex(60, 20);
 vertex(70, 75);
 vertex(80, 20);
 endShape();
+
+  background(0, 0, 255, 0.1);
+  fill(random(300-360), 75, 100);
+  beginShape(TRIANGLES);
+vertex(40, 85);
+vertex(50, 30);
+vertex(60, 85);
+vertex(70, 30);
+vertex(80, 85);
+vertex(90, 30);
+endShape();
+}
