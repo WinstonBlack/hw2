@@ -1,3 +1,5 @@
+// (A)
+
 function setup() {
 	createCanvas(100, 100);
 	colorMode(HSB);
@@ -42,3 +44,6 @@ function setup() {
 	
 	
 }
+
+// (B)
+
