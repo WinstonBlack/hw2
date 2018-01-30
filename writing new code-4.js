@@ -47,3 +47,43 @@ function setup() {
 
 // (B)
 
+function setup() {
+	createCanvas(110, 110);
+	colorMode(HSB);
+
+	fill(0);
+	ellipse(50, 50, 10, 10); // Circle 1
+
+	line(50, 50, 70, 70); // line 1
+
+	fill(0);
+	ellipse(70, 70, 10, 10); // Circle 2
+
+	line(50, 50, 100, 40); // line 2
+	fill(0);
+
+	ellipse(100, 40, 10, 10); // Circle 3
+
+	line(100, 40, 70, 70); // line 4
+	
+	line(70, 70, 100, 100); // line 5
+	
+	ellipse(100, 100, 10, 10); // Circle 4
+	
+line(100, 100, 100, 40); // line 5
+	
+	line(70, 70, 50, 80); // line 6
+	
+		ellipse(50, 80, 10, 10); // Circle 5
+	
+		line(50, 80, 50, 50); // line 7
+	
+	line(50, 80, 100, 100); // line 8
+	
+		line(100, 100, 40, 100); // line 9
+	
+		ellipse(40, 100, 10, 10); // Circle 6
+	
+
+}
+
