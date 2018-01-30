@@ -41,8 +41,6 @@ function setup() {
 	stroke(31);
 	fill(60, 100, 100);
 	rect(60, 50, 20, 30); // rect 9
-	
-	
 }
 
 // (B)
@@ -90,5 +88,4 @@ line(100, 100, 40, 100); // line 9
 ellipse(40, 100, 10, 10); // Circle 6
 
 line(40, 100, 50, 80); // line 10
-
 }
